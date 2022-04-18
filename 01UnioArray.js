@@ -17,8 +17,7 @@ console.log("Array 1 : \n");
 console.log(arrOne);
 console.log("Array 2 : \n");
 console.log(arrTwo);
-console.log("Output : \n");
-console.log(arrTwo);
+
 var index = arrTwo.length;
 
 // using for lopp
