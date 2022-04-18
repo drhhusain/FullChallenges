@@ -13,9 +13,9 @@
 const arrOne = [1,2,5];
 const arrTwo = [2,3,4,6];
 
-console.log("Array 1 : \n");
+console.log("Array 1:");
 console.log(arrOne);
-console.log("Array 2 : \n");
+console.log("\nArray 2:");
 console.log(arrTwo);
 
 var index = arrTwo.length;
@@ -28,7 +28,7 @@ for (let i = 0; i < arrOne.length; i++) {
   }
 }
 
-console.log("Output : \n");
+console.log("\nOutput:");
 console.log(arrTwo);
 
 // using forEach loop
