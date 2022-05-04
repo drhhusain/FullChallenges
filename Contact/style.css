@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body , html {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  background-color: aquamarine;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  font-family: monospace,'Courier New', Courier;
+}
+
+.heading h1 {
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: bisque;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  font-family: monospace,'Courier New', Courier;
+}
+
+table {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table tr td {
+  padding: 10px;
+}
+
+table input {
+  width: 100%;
+  height: 20px;
+  font-size: medium;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sp {
+  width: 300px;
+}
+
+.operations {
+  padding: 30px;
+  margin: 20px;
+  background-color: bisque;
+  border-radius: 25px;
+  font-family: monospace,'Courier New', Courier;
+}
+
+.buttons {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.delete {
+  background-color: #FF416C;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.create {
+  background-color: #a8ff78;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.search {
+  background-color: aqua;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.update {
+  background-color: lightgrey;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  margin: 5px;
+  border-radius: 25px;
+}
